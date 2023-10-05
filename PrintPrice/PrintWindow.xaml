@@ -1,0 +1,45 @@
+﻿<Window x:Class="PrintPrice.PrintWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PrintPrice"
+        mc:Ignorable="d"
+        Title="Окно печати" Height="450" Width="400" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Name="txtOrg" HorizontalAlignment="Center" TextWrapping="Wrap" Text="ЗАО 'Торговый дом' Комплексный" VerticalAlignment="Center" FontSize="22" TextAlignment="Center" FontWeight="Bold" Margin="3,3,3,3"/>
+        <TextBlock Name="txtDep" HorizontalAlignment="Center" Text="Отдел бакалея" VerticalAlignment="Center" Grid.Row="1" FontSize="22" TextAlignment="Center" Margin="3,3,3,3"/>
+        <TextBlock Name="txtName" HorizontalAlignment="Center" Text="Конфеты &#xA;'БАРБАРИС'" VerticalAlignment="Center" Grid.Row="2" FontSize="32" TextAlignment="Center" Margin="3,3,3,3"/>
+        <Rectangle HorizontalAlignment="Center" Height="50" Grid.Row="3" Stroke="Black" VerticalAlignment="Center" Width="250"/>
+        <TextBlock Name="txtPrice" HorizontalAlignment="Center" Text="127 р. 00 коп. " VerticalAlignment="Center" Grid.Row="3" FontSize="24" TextAlignment="Center" Margin="3,3,3,3"/>
+        <Grid Grid.Row="4" Margin="50,0,50,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock HorizontalAlignment="Left" Text="ед.изм.:" VerticalAlignment="Center" TextAlignment="Center" FontSize="18" Margin="3,3,3,3" />
+            <TextBlock Name="txtUnit" HorizontalAlignment="Center" Text="(уп.)" VerticalAlignment="Center" Grid.Column="1" TextAlignment="Center" FontSize="18" Margin="3,3,3,3"/>
+        </Grid>
+        <TextBlock Name="txtCompos" TextWrapping="Wrap" Text="Состав: &#xA;  Сахар; &#xA;  Лимонная кислота; &#xA;  Краситель" VerticalAlignment="Center" Grid.Row="5" FontSize="24" Margin="50,0,50,0"/>
+        <Line X1="10" Y1="0" X2="390" Y2="0" Stroke="Black" StrokeThickness="1" Grid.Row="0" VerticalAlignment="Bottom" Margin="0,10,0,0"/>
+        <Line X1="10" Y1="0" X2="390" Y2="0" Stroke="Black" StrokeThickness="1" Grid.Row="1" VerticalAlignment="Bottom" Margin="0,10,0,0"/>
+        <Line X1="0" Y1="0" X2="360" Y2="0" Stroke="Black" StrokeThickness="1" Grid.Row="6" Margin="0,10,0,0" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Grid Grid.Row="6" Margin="10,10,10,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Name="txtBrand" HorizontalAlignment="Right" Text="Rot Front" VerticalAlignment="Bottom" FontSize="18" Grid.Column="1" FontWeight="Bold" TextAlignment="Center" Margin="3,3,3,3"/>
+            <TextBlock HorizontalAlignment="Left"  Text="25.11.09г." VerticalAlignment="Bottom" FontSize="18" Grid.Column="0" TextAlignment="Center" Margin="3,3,3,3"/>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,182 @@
+﻿[
+	{
+		"name": "Молоко",
+		"price": 50,
+		"composition": "Молоко коровье пастеризованное",
+		"department": "Молочные продукты",
+		"organization": "ООО Молочная Ферма",
+		"legalEntity": "Общество с ограниченной ответственностью",
+		"unitMeasurement": "литр"
+	},
+	{
+		"name": "Хлеб",
+		"price": 30,
+		"composition": "Пшеничная мука, вода, дрожжи, соль, сахар",
+		"department": "Хлебобулочные изделия",
+		"organization": "ИП Пекарня 'Хлебный рай'",
+		"legalEntity": "Индивидуальный предприниматель",
+		"unitMeasurement": "штука"
+	},
+	{
+		"name": "Яблоки",
+		"price": 80,
+		"composition": "Яблоки сорта Голден Делишес",
+		"department": "Фрукты и овощи",
+		"organization": "Агрофирма 'Золотые Яблоки'",
+		"legalEntity": "Акционерное общество",
+		"unitMeasurement": "кг"
+	},
+	{
+		"name": "Картофель",
+		"price": 25,
+		"composition": "Картофель сорта Ред Руссет",
+		"department": "Фрукты и овощи",
+		"organization": "Фермерское хозяйство 'Земельные клады'",
+		"legalEntity": "Фермерское хозяйство",
+		"unitMeasurement": "кг"
+	},
+	{
+		"name": "Сахар",
+		"price": 45,
+		"composition": "Сахар-песок",
+		"department": "Бакалея",
+		"organization": "ОАО 'Сахарная Фабрика'",
+		"legalEntity": "Открытое акционерное общество",
+		"unitMeasurement": "кг"
+	},
+	{
+		"name": "Куриное мясо",
+		"price": 120,
+		"composition": "Филе куриной грудки",
+		"department": "Мясо и птица",
+		"organization": "ЗАО 'Мясоперерабатывающий завод 'Птицефабрика'",
+		"legalEntity": "Закрытое акционерное общество",
+		"unitMeasurement": "кг"
+	},
+	{
+		"name": "Помидоры",
+		"price": 60,
+		"composition": "Помидоры сорта Сан-Марцано",
+		"department": "Фрукты и овощи",
+		"organization": "Фермерское кооперативное общество 'Томатное удовольствие'",
+		"legalEntity": "Кооператив",
+		"unitMeasurement": "кг"
+	},
+	{
+		"name": "Рис",
+		"price": 40,
+		"composition": "Рис длиннозерный",
+		"department": "Бакалея",
+		"organization": "Индивидуальный предприниматель Андрей Иванов",
+		"legalEntity": "Индивидуальный предприниматель",
+		"unitMeasurement": "кг"
+	},
+	{
+		"name": "Морковь",
+		"price": 20,
+		"composition": "Морковь сорта Нантес",
+		"department": "Фрукты и овощи",
+		"organization": "Фермерское хозяйство 'Здоровые корешки'",
+		"legalEntity": "Фермерское хозяйство",
+		"unitMeasurement": "кг"
+	},
+	{
+		"name": "Рыба тунец",
+		"price": 250,
+		"composition": "Филе тунца свежемороженое",
+		"department": "Рыба и морепродукты",
+		"organization": "ООО 'Океанские богатства'",
+		"legalEntity": "Общество с ограниченной ответственностью",
+		"unitMeasurement": "кг"
+	},
+	{
+	"name": "Картофель фри",
+	"price": 70,
+	"composition": "Картофель фри глубокой заморозки",
+	"department": "Замороженные продукты",
+	"organization": "ООО 'Замороженные удовольствия'",
+	"legalEntity": "Общество с ограниченной ответственностью",
+	"unitMeasurement": "кг"
+	},
+	{
+	"name": "Сыр Чеддер",
+	"price": 150,
+	"composition": "Сыр Чеддер выдержанный",
+	"department": "Молочные продукты",
+	"organization": "ЗАО 'Сырный рай'",
+	"legalEntity": "Закрытое акционерное общество",
+	"unitMeasurement": "кг"
+	},
+	{
+	"name": "Кофе молотый",
+	"price": 90,
+	"composition": "100% Арабика, обжарка средняя",
+	"department": "Напитки",
+	"organization": "ИП Кофейная Мастерская",
+	"legalEntity": "Индивидуальный предприниматель",
+	"unitMeasurement": "грамм"
+	},
+	{
+	"name": "Оливки",
+	"price": 60,
+	"composition": "Зеленые оливки без косточек",
+	"department": "Бакалея",
+	"organization": "ООО 'Италийские вкусности'",
+	"legalEntity": "Общество с ограниченной ответственностью",
+	"unitMeasurement": "грамм"
+	},
+	{
+	"name": "Яйца куриные",
+	"price": 5,
+	"composition": "Яйца куриной фермы, категория А",
+	"department": "Яйца и молочные продукты",
+	"organization": "Фермерское хозяйство 'Яичные радости'",
+	"legalEntity": "Фермерское хозяйство",
+	"unitMeasurement": "штука"
+	},
+	{
+	"name": "Макароны",
+	"price": 25,
+	"composition": "Паста из твердых сортов пшеницы",
+	"department": "Бакалея",
+	"organization": "ООО 'Паста Дельче'",
+	"legalEntity": "Общество с ограниченной ответственностью",
+	"unitMeasurement": "пакет"
+	},
+	{
+	"name": "Молоко кокосовое",
+	"price": 80,
+	"composition": "Молоко кокосовое нерафинированное",
+	"department": "Молочные продукты",
+	"organization": "ИП 'Экзотические вкусы'",
+	"legalEntity": "Индивидуальный предприниматель",
+	"unitMeasurement": "литр"
+	},
+	{
+	"name": "Шоколадка",
+	"price": 45,
+	"composition": "Молочный шоколад с орехами",
+	"department": "Кондитерские изделия",
+	"organization": "ОАО 'Сладкая фабрика'",
+	"legalEntity": "Открытое акционерное общество",
+	"unitMeasurement": "штука"
+	},
+	{
+	"name": "Сок апельсиновый",
+	"price": 60,
+	"composition": "100% натуральный сок апельсиновый",
+	"department": "Напитки",
+	"organization": "ЗАО 'Сокосвет'",
+	"legalEntity": "Закрытое акционерное общество",
+	"unitMeasurement": "литр"
+	},
+	{
+	"name": "Красная рыба",
+	"price": 200,
+	"composition": "Филе красной рыбы свежемороженое",
+	"department": "Рыба и морепродукты",
+	"organization": "ИП 'Рыбный рай'",
+	"legalEntity": "Индивидуальный предприниматель",
+	"unitMeasurement": "кг"
+	}
+]
